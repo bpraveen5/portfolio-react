@@ -1,0 +1,100 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px, 170px;
+    
+
+    
+}
+.nav-menu{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    margin-top: 3rem;
+    margin-left: 30rem;
+    gap: 50px;
+    font-size: 18px;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    padding: 20px 40px;
+    border-radius: 1rem;
+
+}
+.anchor-link p{
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.anchor-link p:hover{
+    color: #EAB8FF; /* Light Purple */
+}
+
+
+/*📌 Media Query for Tablets (768px and below)*/
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 10rem;
+    }
+
+    .nav-menu {
+        display: flex;
+    text-align: center;
+    list-style: none;
+    margin-top: 3rem;
+    margin-right: 40rem;
+    gap: 25px;
+    font-size: 15px;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    padding: 20px 30px;
+    border-radius: 0.5rem;
+    background-color: rgb(1, 1, 53);
+
+    }
+}
+
+ /*📌 Media Query for Mobile Phones (480px and below)*/
+@media (max-width: 400px) {
+    .navbar {
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .nav-menu {
+        display: flex;
+    text-align: center;
+    list-style: none;
+    margin-top: 3rem;
+    margin-left: 30rem;
+    gap: 15px;
+    font-size: 15px;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    padding: 20px 20px;
+    border-radius: 0.5rem;
+    background-color: rgb(1, 1, 53);
+    }
+}
+
+/*📌 Media Query for Larger Desktops (1200px and above)*/
+@media (min-width: 1200px) {
+    .navbar {
+        margin: 20px 200px;
+    }
+
+    .nav-menu {
+        display: flex;
+        text-align: center;
+        list-style: none;
+        margin-top: 3rem;
+        margin-left: 15rem;
+        gap: 50px;
+        font-size: 15px;
+        border: 0.5px solid rgba(255, 255, 255, 0.5);
+        padding: 20px 40px;
+        border-radius: 0.5rem;
+        background-color: rgb(1, 1, 53);
+    }
+} 

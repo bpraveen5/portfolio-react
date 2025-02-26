@@ -1,0 +1,220 @@
+/* Reset & Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Centering Projects Section */
+.projects-section {
+    text-align: center;
+    width: 60%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Section Title */
+.projects-section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.projects-section span {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #EAB8FF; /* Light Purple */
+
+}
+
+/* Grid Layout for Projects */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Project Card */
+.project-card {
+    background-color: rgb(6, 6, 68);
+    padding: 15px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(255, 255, 255, 0.21);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Project Image */
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Project Info */
+.project-info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Project Title */
+.project-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+/* Project Description */
+.project-info p {
+    font-size: 0.9rem;
+    color: #b0b0b0;
+    margin-bottom: 8px;
+}
+
+/* Tech Stack */
+.tech-stack {
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .projects-section {
+        text-align: center;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    /* Section Title */
+    .projects-section h2 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+    .projects-section span {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: #EAB8FF; /* Light Purple */
+    
+    }
+    
+    /* Grid Layout for Projects */
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    /* Project Card */
+    .project-card {
+        background-color: rgb(6, 6, 68);
+        padding: 15px;
+        border-radius: 10px;
+        border: 0.5px solid rgba(255, 255, 255, 0.21);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    /* Hover Effect */
+    .project-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    /* Project Image */
+    .project-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Project Card */
+.project-card {
+    background-color: rgb(6, 6, 68);
+    padding: 15px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(255, 255, 255, 0.21);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+    
+    .projects-section h2 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+    .projects-section span {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: #EAB8FF; /* Light Purple */
+    
+    }
+    .projects-container {
+        grid-template-columns: 1fr; /* Single column for small screens */
+    }
+
+    .project-card {
+        padding: 12px;
+    }
+
+    .project-info h3 {
+        font-size: 1.1rem;
+    }
+
+    .project-info p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-section {
+        padding: 10px;
+        width: 100%;
+        max-width: 1000px;
+    }
+   
+    .projects-section h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+    .projects-section span {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #EAB8FF; /* Light Purple */
+    
+    }
+    .project-card {
+        padding: 10px;
+    }
+
+    .project-info h3 {
+        font-size: 1rem;
+    }
+
+    .project-info p {
+        font-size: 0.8rem;
+    }
+
+    .tech-stack {
+        font-size: 0.8rem;
+    }
+}

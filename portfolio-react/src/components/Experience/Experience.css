@@ -1,0 +1,152 @@
+/* Experience Section Styling */
+
+
+.experience-section {
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Title Styling */
+.experience-title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.experience-title span {
+    font-size: 3rem;
+    color: #c084fc;
+    font-weight: bold;
+}
+
+/* Experience Container */
+.experience-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-card {
+    display: flex;
+    align-items: center;
+    background-image: url('../../assets/bg.png');
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 700px;
+    width: 100%;
+    border: 0.5px solid rgba(255, 255, 255, 0.21);
+
+}
+
+/* Image Styling */
+.experience-image {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-inline-color: #c084fc;
+}
+
+/* Experience Content */
+.experience-content {
+    text-align: left;
+}
+
+.experience-content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.experience-content p {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    
+    .experience-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+        margin-top: 100px;
+    }
+
+    .experience-image {
+        margin-bottom: 15px;
+    }
+    .experience-section {
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px 20px;
+        margin-top: 15rem;
+    }
+    .experience-content p {
+        font-size: 1rem;
+        opacity: 0.8;
+        font-weight: normal;
+    }
+    .experience-title {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: white;
+        margin-top: 20rem;
+    }
+    
+    .experience-title span {
+        font-size: 2.5rem;
+        color: #c084fc;
+        font-weight: bold;
+        margin-top: 20rem;
+    }
+    
+}
+@media (max-width: 480px) {
+
+    .experience-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+        margin-top: 50px;
+    }
+    .experience-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+        margin-top: 50px;
+    }
+
+    .experience-image {
+        margin-bottom: 15px;
+    }
+    .experience-section {
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px 20px;
+        margin-top: 10rem;
+    }
+    .experience-content p {
+        font-size: 1rem;
+        opacity: 0.8;
+        font-weight: normal;
+    }
+    .experience-title {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: white;
+        margin-top: 10rem;
+    }
+    
+    .experience-title span {
+        font-size: 2.5rem;
+        color: #c084fc;
+        font-weight: bold;
+        margin-top: 10rem;
+    }
+    
+}
